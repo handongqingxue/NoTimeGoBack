@@ -12,6 +12,7 @@ public class Part1Util {
 	public static final String CHAP2_TIT_NAME="第二章 松花江畔";
 	
 	public static final String CHAP1_IMAGE_PATH=Contant.IMAGE_PATH+"001";
+	public static final String CHAP2_IMAGE_PATH=Contant.IMAGE_PATH+"002";
 	
 	public static String getChapterByNum(int num) {
 		String content=null;
@@ -149,10 +150,27 @@ public class Part1Util {
 					sb.append(CHAP2_TIT_NAME);
 				sb.append("</h1>");
 				sb.append("<div class=\"content_div\">");
-
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("崔家的毛坯房是三十多年前崔母、崔父二人在县里靠种地攒下来的血汗钱买下来的，起初夫妻两在不远处租赁了一间茅屋，买下那套房后才搬过来的。这套房在崔父在世时每逢雨季期间经常漏雨，崔父生前在村里的人脉不错，帮助过好几位邻居，不贪恋。在志华才几岁时，有次村里举办抽奖活动，牛村长（大家称他“阿牛”）有事，劳驾崔父替他抓阄。崔父第一个阄就替阿牛抓了，自己随后才抓的。或许是崔父积善成德，手上也沾满财运，一抓就是特等奖，一辆老爷车。再看看自己的阄，上面写着“谢谢参与”四个字。崔母和三个孩子见阿牛不在现场，都建议他把阄一换蒙混过关。阿牛本来就是位富二代，继承父业家里已经有好几辆车了，也不差这一辆。但崔父却墨守成规的等阿牛回来把领来的车物归原主，阿牛为表谢意送崔父一盒雪茄。崔父注重养身从不吸烟，连烟斗都没碰过，便婉言谢绝。阿牛再三感谢崔父，觉得他为人耿直值得交往。");
+				sb.append("</div>");
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("往后几年里，山东地区夏季经常多雨，好几次崔家老宅漏雨都是村长阿牛找人帮忙修理的。崔父临走前步履蹒跚，好几次家里有事也是阿牛帮忙代办，包括崔父去世后，崔母体弱多病需要帮助时。崔母走后，三位孩子踏上了征途，全村人都来为他们送行，送给三位孩子一些盘缠。");
+				sb.append("</div>");
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("松花江离高密县有好几千里路，要是步行不知猴年马月才能到，好比西天取经，路上不定遇到“魑魅魍魉(1)”。在高密县内还好说，出了县身为孩子人生地不熟很是为难。经商议，三人决定坐火车去。");
+				sb.append("</div>");
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("虽然坐火车快的多，但三人来到火车站看了站牌瞬间愣住了，遇到两大难题。其一：没有直达松花江的列车；其二：就算到了松花江，找姑父的住址也是大难题。");
+				sb.append("</div>");
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("志华走着走着感觉脚酸，虽然经常种地、卖粮食，但走这么远的路以前还真的很少经历。志华低头看到脚上原先雪白色的尼龙袜现在有些泛黄了，脱掉凉鞋看到袜跟处露出了脚后跟、袜尖处露着大拇指，凉鞋鞋底也开裂了。");
+				sb.append("</div>");
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("志华是位爱干净的女孩，之前每天回家都洗洗，晾干后第二天继续穿，一直保持着雪白色，现在却洗不回原来的样子。志华又估计颜面，马上要上火车了，穿着破烂的凉鞋，白里泛黄的尼龙袜两头破了露在外面会遭人耻笑。就找个拐角处，脱掉凉鞋和尼龙袜扔掉，换上临走前乡亲送她的黑色一字带鞋和白色棉袜(<a class=\"img_a\" href=\""+CHAP2_IMAGE_PATH+"001.png\" target=\"_blank\">图</a>)，这样看上去倒像位要好的大姑娘。");
+				sb.append("</div>");
 				sb.append("");
 				sb.append("");
-				sb.append("");
+				
 				sb.append("一个女人姓张名萌，一个男人姓李名龙。李龙的家庭是个惨不忍堵的家庭，自从张萌和李龙结婚后，张萌的命运被李龙的家庭给改变了，一场爱与恨的故事就此拉开帷幕。");
 				sb.append("本故事要先从张萌的母亲乔梅花讲起……");
 				sb.append("乔梅花1931年出生于东北松花江，后来搬到山东省高密县的一个小山村里，从小在那里长大。全家五口，排行老三。父亲乔大山、母亲崔孟华、大哥乔天赐、二哥乔少康。大山与孟华原居东北松花江，1931年九一八事变爆发，全家被迫逃亡，来到高密县。");

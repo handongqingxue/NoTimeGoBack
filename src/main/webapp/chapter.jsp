@@ -39,6 +39,9 @@ body{
 	text-indent:2em;
 	font-size: 20px;
 }
+.img_a{
+	text-decoration: none;
+}
 .next_chap_nav_div{
 	line-height: 60px;
 	color:#333;
@@ -49,9 +52,6 @@ body{
 </head>
 <body>
 ${requestScope.content }
-<div class="paragraph_div">
-
-</div>
 <div class="paragraph_div">
 </div>
 </body>
