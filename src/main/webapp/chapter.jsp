@@ -39,12 +39,20 @@ body{
 	text-indent:2em;
 	font-size: 20px;
 }
+.next_chap_nav_div{
+	line-height: 60px;
+	color:#333;
+	font-size: 20px;
+	text-align: center;
+}
 </style>
 </head>
 <body>
 ${requestScope.content }
 <div class="paragraph_div">
 
+</div>
+<div class="paragraph_div">
 </div>
 </body>
 </html>
