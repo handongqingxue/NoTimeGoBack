@@ -9,7 +9,7 @@ public class Part1Util {
 	/**
 	 * 第二章标题
 	 */
-	public static final String CHAP2_TIT_NAME="第二章 松花江畔";
+	public static final String CHAP2_TIT_NAME="第二章 列车上的小偷";
 	
 	public static final String CHAP1_IMAGE_PATH=Contant.IMAGE_PATH+"001";
 	public static final String CHAP2_IMAGE_PATH=Contant.IMAGE_PATH+"002";
@@ -160,7 +160,7 @@ public class Part1Util {
 					sb.append("松花江离高密县有好几千里路，要是步行不知猴年马月才能到，好比西天取经，路上不定遇到“魑魅魍魉(1)”。在高密县内还好说，出了县身为孩子人生地不熟很是为难。经商议，三人决定坐火车去。");
 				sb.append("</div>");
 				sb.append("<div class=\"paragraph_div\">");
-					sb.append("虽然坐火车快的多，但三人来到火车站看了站牌瞬间愣住了，遇到两大难题。其一：没有直达松花江的列车；其二：就算到了松花江，找姑父的住址也是大难题。");
+					sb.append("虽然坐火车快的多，但三人来到火车站看了站牌瞬间愣住了，遇到两大难题。其一：没有直达松花江的列车，只能先到北平城南站再转车去；其二：就算到了松花江，找姑父的住址也是大难题。");
 				sb.append("</div>");
 				sb.append("<div class=\"paragraph_div\">");
 					sb.append("志华走着走着感觉脚酸，虽然经常种地、卖粮食，但走这么远的路以前还真的很少经历。志华低头看到脚上原先雪白色的尼龙袜现在有些泛黄了，脱掉凉鞋看到袜跟处露出了脚后跟、袜尖处露着大拇指，凉鞋鞋底也开裂了。");
@@ -168,8 +168,40 @@ public class Part1Util {
 				sb.append("<div class=\"paragraph_div\">");
 					sb.append("志华是位爱干净的女孩，之前每天回家都洗洗，晾干后第二天继续穿，一直保持着雪白色，现在却洗不回原来的样子。志华又估计颜面，马上要上火车了，穿着破烂的凉鞋，白里泛黄的尼龙袜两头破了露在外面会遭人耻笑。就找个拐角处，脱掉凉鞋和尼龙袜扔掉，换上临走前乡亲送她的黑色一字带鞋和白色棉袜(<a class=\"img_a\" href=\""+CHAP2_IMAGE_PATH+"001.png\" target=\"_blank\">图</a>)，这样看上去倒像位要好的大姑娘。");
 				sb.append("</div>");
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("三人只能摸着石头过河，志雄再三叮嘱志伟，路上一定要听从他的安排，决不能制造事端。随着一声声呜呜的汽笛声，列车冒着滚滚浓烟，终于徐徐的朝站台驶来。三人抬着沉重的行李上车，各自找了空位就座。");
+				sb.append("</div>");
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("车厢内人群比较拥挤，志华、志伟坐在一起，志雄单独坐在离他两只有两座的地方。有位中年男子蹭蹭的朝志华座位走来，手里抱着狗汪汪叫。志华生来怕狗，加上听到了犬吠声，坐的更不安稳。志雄看出了端倪，示意志华过来到自己的座位，自己去和二弟坐在一起。志雄在过道里走着，从某座位上伸出一条腿来将其绊了个正着，正巧倒在一位女子身上。那位女子就碰瓷说他非礼她。志雄身后突然出现一位男子，大骂：“反了！光天化日下敢调戏良家妇女！”骂完朝志雄胸口就是一拳，志雄后背朝后倒在那位抱狗男子的身上。那位男子一把推开志雄，往车门方向跑了。");
+				sb.append("</div>");
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("当局者迷旁观者清，刚才发生的一幕幕被志华看在眼里，但她是女子，又插不上手。志华总感觉有猫腻，事情不会这么巧。突然看到那位抱狗的男子准备下车了，手里拿着大哥的钱包。大喊：“有贼！”");
+				sb.append("</div>");
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("志雄摸了摸裤兜才发现钱包不见了，里面装着卖掉崔宅赚来的全部积蓄。");
+				sb.append("</div>");
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("原来那三人是一伙的，抱狗男子在刚才志华换鞋时已经盯上了他们。做贼做惯了，从志华扔掉的鞋袜来看，他们的处境很潦倒。又见志华换上新鞋新袜，猜想他们身上肯定有一笔钱，要是偷来够花一段时间的，便联手演了刚才那出戏。");
+				sb.append("</div>");
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("志伟二话不说，立马冲下列车，朝小偷追了过去。志雄见积蓄被偷、二弟也追小偷了。钱倒是次要的，唯恐弟弟有闪失，也跟着追下车。");
+				sb.append("</div>");
+				sb.append("<div class=\"paragraph_div\">");
+					sb.append("车子渐渐的开了，慢慢的驶出站台，志华还在车厢里看守着他们的行李，哥弟两又不知去向。志华以前和大哥做过很多次买卖，到不在话下。但这种局面生平真是头次经历，不知所措，不敢想象接下来等着她的会是啥？只能摸着石头过河。不过有点小小的主意，既然三人起初说好了在北平城南站转车，相信等车到了那在那等着哥弟两就是，志伟的脑子不敢说，但志雄一定也会想到去那里等着妹妹的，这是不二法门。");
+				sb.append("</div>");
+				sb.append("<div class=\"next_chap_nav_div\">");
+					sb.append("哥弟两能否再找到找到妹妹？志华接下来会遇到什么事？请看下回分解。");
+				sb.append("</div>");
 				sb.append("");
 				sb.append("");
+				sb.append("");
+				sb.append("");
+				sb.append("");
+				sb.append("");
+				
+				
+				
+				
 				
 				sb.append("一个女人姓张名萌，一个男人姓李名龙。李龙的家庭是个惨不忍堵的家庭，自从张萌和李龙结婚后，张萌的命运被李龙的家庭给改变了，一场爱与恨的故事就此拉开帷幕。");
 				sb.append("本故事要先从张萌的母亲乔梅花讲起……");

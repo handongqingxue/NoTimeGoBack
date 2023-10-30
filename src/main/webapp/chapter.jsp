@@ -54,5 +54,7 @@ body{
 ${requestScope.content }
 <div class="paragraph_div">
 </div>
+<div class="paragraph_div">
+</div>
 </body>
 </html>
