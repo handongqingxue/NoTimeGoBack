@@ -1,5 +1,8 @@
 package com.noTimeGoBack.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
@@ -20,6 +23,16 @@ public class MainController {
 		String url = null;
 		String page = request.getParameter("page");
 		if("directory".equals(page)){//http://localhost:8080/NoTimeGoBack/main/goPage?page=directory
+			
+			List<String> titleList=new ArrayList<String>();
+			
+			titleList.add(Part1Util.CHAP1_TIT_NAME);
+			titleList.add(Part1Util.CHAP2_TIT_NAME);
+			titleList.add(Part1Util.CHAP3_TIT_NAME);
+			titleList.add(Part1Util.CHAP4_TIT_NAME);
+			
+			request.setAttribute("titleList", titleList);
+			
 			url="/directory";
 		}
 		else if("chapter".equals(page)){//http://localhost:8080/NoTimeGoBack/main/goPage?page=chapter&num=1
