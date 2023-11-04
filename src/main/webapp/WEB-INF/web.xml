@@ -5,7 +5,7 @@
 	version="2.5">
   <display-name>NoTimeGoBack</display-name>
   	<servlet>
-		<servlet-name>BatchMesComDK</servlet-name>
+		<servlet-name>NoTimeGoBack</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
@@ -15,7 +15,7 @@
 		</init-param>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>BatchMesComDK</servlet-name>
+		<servlet-name>NoTimeGoBack</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 </web-app>
