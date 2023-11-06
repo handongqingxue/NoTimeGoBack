@@ -21,7 +21,7 @@ public class Part1Util {
 	/**
 	 * 第5章标题
 	 */
-	public static final String CHAP5_TIT_NAME="第5章 城南旧事";
+	public static final String CHAP5_TIT_NAME="第5章 城南叙旧";
 	
 	public static final String CHAP1_IMAGE_PATH=Contant.IMAGE_PATH+"001";
 	public static final String CHAP2_IMAGE_PATH=Contant.IMAGE_PATH+"002";
