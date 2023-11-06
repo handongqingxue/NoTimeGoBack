@@ -18,9 +18,14 @@ public class Part1Util {
 	 * 第4章标题
 	 */
 	public static final String CHAP4_TIT_NAME="第4章 山本与浅见";
+	/**
+	 * 第5章标题
+	 */
+	public static final String CHAP5_TIT_NAME="第5章 城南旧事";
 	
 	public static final String CHAP1_IMAGE_PATH=Contant.IMAGE_PATH+"001";
 	public static final String CHAP2_IMAGE_PATH=Contant.IMAGE_PATH+"002";
+	public static final String CHAP5_IMAGE_PATH=Contant.IMAGE_PATH+"005";
 	
 	public static String getChapterByNum(int num) {
 		String content=null;
@@ -36,6 +41,9 @@ public class Part1Util {
 			break;
 		case 4:
 			content=getChapter4();
+			break;
+		case 5:
+			content=getChapter5();
 			break;
 		}
 		return content;
@@ -497,6 +505,35 @@ public class Part1Util {
 					sb.append("</div>");
 					sb.append("<div>");
 						sb.append("(2)平田受天皇命令来中国执行的一场计划，具体内容将在后面的章节揭晓，请读着继续关注。");
+					sb.append("</div>");
+				sb.append("</div>");
+			sb.append("</div>");
+		sb.append("</div>");
+		
+		return sb.toString();
+	}
+
+	/**
+	 * 获得第5章内容
+	 * @return
+	 */
+	public static String getChapter5() {
+		
+		StringBuilder sb=new StringBuilder();
+		sb.append("<div class=\"main_div\">");
+			sb.append("<div class=\"chapter_div\">");
+				sb.append("<h1 class=\"title_div\">");
+					sb.append(CHAP5_TIT_NAME);
+				sb.append("</h1>");
+				sb.append("<div class=\"content_div\">");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("");
 					sb.append("</div>");
 					sb.append("");
 					sb.append("");

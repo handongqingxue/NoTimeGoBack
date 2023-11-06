@@ -30,6 +30,7 @@ public class MainController {
 			titleList.add(Part1Util.CHAP2_TIT_NAME);
 			titleList.add(Part1Util.CHAP3_TIT_NAME);
 			titleList.add(Part1Util.CHAP4_TIT_NAME);
+			titleList.add(Part1Util.CHAP5_TIT_NAME);
 			
 			request.setAttribute("titleList", titleList);
 			
