@@ -25,11 +25,16 @@ public class Part1Util {
 	/**
 	 * 第6章标题
 	 */
-	public static final String CHAP6_TIT_NAME="第6章 父子情";
+	public static final String CHAP6_TIT_NAME="第6章 父与子的故事(上)";
+	/**
+	 * 第7章标题
+	 */
+	public static final String CHAP7_TIT_NAME="第7章 父与子的故事(下)";
 	
 	public static final String CHAP1_IMAGE_PATH=Contant.IMAGE_PATH+"001";
 	public static final String CHAP2_IMAGE_PATH=Contant.IMAGE_PATH+"002";
 	public static final String CHAP5_IMAGE_PATH=Contant.IMAGE_PATH+"005";
+	public static final String CHAP6_IMAGE_PATH=Contant.IMAGE_PATH+"006";
 	
 	public static String getChapterByNum(int num) {
 		String content=null;
@@ -51,6 +56,9 @@ public class Part1Util {
 			break;
 		case 6:
 			content=getChapter6();
+			break;
+		case 7:
+			content=getChapter7();
 			break;
 		}
 		return content;
@@ -805,7 +813,206 @@ public class Part1Util {
 					sb.append(CHAP6_TIT_NAME);
 				sb.append("</h1>");
 				sb.append("<div class=\"content_div\">");
-				
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("三双脚板踏过一方方青石板向前走着，一双穿着一字带布鞋，鞋面露着白色棉袜、一双穿着vans一脚蹬帆布鞋，虽然走了将近一天的路，看上去显的特别干净。最后一双穿着破旧的布鞋，鞋面露着脚背，没穿袜子，可能是这么穿习惯了而已。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("三人走了一会，大山听见报童的肚子咕咕叫，说：“孩子，中午没吃东西吧？咱找家店吃完再走。”报童想了想答应下来。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("志华听大山老是称呼报童“孩子”，感觉很不是滋味，便问：“孩子，我们该怎么称呼你？”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("报童说：“我叫‘葛宝’，我爹叫葛申。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“你娘呢？”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“我两岁那年娘就遭土匪杀害了，几年后我爹患病。曾去看过好几位郎中，都说这种病城里目前还没人能医治。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("大山说：“天无绝人之路，我觉得肯定有方子可以医治。咱先吃点东西，吃完后去小宝家看看他爹的情况。记得龙师长说过，他认识一位郎中，说不定有一线希望。实在不行再想别的办法，咱一定尽力帮小宝他爹。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("说着，三人进了家面店。大山对店小二喊：“来三碗清汤荞麦面！”三人找了张桌坐下。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("志华刚坐下就同意道：“说的对，郭靖当年为了给黄蓉疗伤，还翻山越岭的找到了一灯大师(1)。咱趁小宝爹活着时就得寻求一切源头，哪怕多走几个县城也得找到神医。我从小在黄土地里长大，两只脚还硬着呢。只是，恐怕得费几双鞋了。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“我也是”大山说：“我的这双脚这些年走过的路比一般人走过的桥还长，这双帆布鞋是义父特意为我订做的，穿着它五六年了，上过好几次战场。虽然鞋底薄薄的，到目前为止还没补过。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("葛宝听了叔叔阿姨的这些话，热泪盈眶，跪在他们面前磕头感谢。大山立马抓着小宝的胳膊将其搀扶起，说：“小宝，别这样，你是位孝顺懂事的乖孩子，认识你是叔叔阿姨的荣幸。快起来，男儿膝下有黄金。你往后的路还长着呢，等会去集市上，叔叔给你买双像样的鞋子你换上，要和叔叔这样，脚踏实地的走好每一步。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("小宝看到大山叔的帆布鞋摆在自己膝盖前十公分处，被自己擦的很干净，便把手放在大山叔的帆布鞋上，说：“叔叔这双帆布鞋不错，能让孩儿看看吗？冒犯了。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("大山觉得小宝听进去了自己刚才的谆谆教导，说：“害，这点小事还说啥冒犯，叔叔这些年来穿着它身经百战。你看吧！”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("大山大方的抬起了脚，小宝看了看鞋面，是黑色帆布材料做的，两边带着白色松紧带。又低头看了看鞋底，是黄色花纹材料的，鞋边是白色的，跟黑色鞋面缝合在一起，缝的很结实(<a class=\"img_a\" href=\""+CHAP6_IMAGE_PATH+"001.jpg\" target=\"_blank\">图</a>)。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“我可以看看鞋里吗？”葛宝怯生生的问，不敢抬头跟大山叔对视。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“当然。”大山说着毫不犹豫的脱掉右脚的帆布鞋，nike牌白袜脚露在外面(<a class=\"img_a\" href=\""+CHAP6_IMAGE_PATH+"003.png\" target=\"_blank\">图</a>)，心想：“从今早到现在走了一路，天热太捂脚了。正好趁满足这崽子欲望时，给白袜脚透透气。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("大山很自然的脱掉右脚的帆布鞋，右腿搭在左腿膝盖上。小宝看到大山叔动作很洒脱，自己显的受拘束，伸着手在半空，不敢像上次那样碰帆布鞋。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("大山见小宝腼腆的样子，亲手拿起自己刚脱掉的帆布鞋，递到小宝手里。小宝看了看鞋里，里面的鞋底是浅黄色的，印有黑色vans艺术字(<a class=\"img_a\" href=\""+CHAP6_IMAGE_PATH+"002.jpg\" target=\"_blank\">图</a>)。与地面接触的鞋底是黄色的，鞋底大约1cm厚，鞋底与鞋边粘的很结实。大山穿着他走了一上午，刚脱下来小宝的手感觉到里面热乎乎的。小宝看到大山叔的白袜脚，整双袜子都是纯白色的、干干净净的。小宝这时慢慢变的大方点了，与大山叔间的距离也拉近了很多。小宝把大山叔的裤腿往上一拉，看到了袜筒处有黑色的英文，写着“nike”字样，就问大山叔这个字怎么念。大山告诉小宝：“这不是中国汉字，是英国语言，读‘耐克’，跟着我读。”大山用口型教小宝读单词，小宝很快就学会了。小宝双手抓着大山叔的nike白袜脚摸了摸，摸完袜底摸袜背、摸袜跟、袜尖，感觉袜质不错，穿了好几个月没有出现起球现象。大山叔每晚都洗，小宝摸来摸去并没闻到异味。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("小宝脱掉自己那双破烂的布鞋，穿上大山叔的帆布鞋，感觉大了好几个号。于是亲手给大山叔穿回去，用食指提上鞋跟。说：“我特别喜欢大山叔的这双鞋子，要是我有一双一模一样的就好了。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“这简单，等带你去见龙爷爷，让他给你量身订做一双就行。龙爷爷除了认识一位郎中，还认识一位私塾的校长，正好看看找机会给你报名上学去。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“太好了！多谢大山叔。”小宝这次不给大山叔下跪，而是上去紧紧拥抱着大山叔和志华阿姨许久。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“清汤荞麦面来了！”店小二端上了三碗。小宝看到大山叔和志华阿姨动筷子，自己便狼吞虎咽的开吃了。大山把自己碗里的牛肉往小宝碗里夹了好几块，志华也这么做了。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("小宝看上去好像好些年没吃过这么好的饭菜了，大山、志华还没吃完，他已吃完一碗后还有些食欲。大山看出了小宝的心思，对店小二说：“再来碗清汤荞麦面！”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("不一会功夫，店小二便端上了一碗荞麦面。这时，大山刚吃完碗里的面，志华的碗里还剩几口，小宝又开始狼吞虎咽的吃开了。小宝才用了五分钟左右就吃完了第二碗面，大山去柜台结了账，三人出发了。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("小宝家就在出了齐化门往西北方向走，进了一条胡同，有间很老的小屋里。小宝推开房门，屋里正对着那张床上蜷缩着一位男子。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“爹，我回来了。”小宝用比较清晰的语气喊。男子艰难的把头从朝着墙的那方转过来，大山、志华看到这位被小宝叫做“爹”的看上去已有五六十岁左右的样子。葛申看到除了儿子外，旁边还站着两位自己不认识的陌生人，便问：“这两位是？”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“这位叔叔和阿姨是我的恩人，他们说有法子可以医治爹的鼠疮，还能想办法供我读书。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“你好小宝的爹，很高兴认识你。今天我们路上遇到这位孩子，买了他的报纸，钱多了找不开，他不仅没要，还帮我擦了鞋，真是位懂事、孝顺的好孩子。这么好的年龄不上学去当报童太可惜了，要不从明天起别让他去卖报了，现在动荡国情。不如我去找找关系给您医治试试，顺便让小宝去读私塾，你看如何？”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“真是太感谢你们两位救命恩人了”葛申咳嗽着说：“小宝叫我’爹‘，你们看我像五六十岁了是吧？没错，我今年差一年花甲。你们也许会有疑问，为何年级这么大了才当爹？我见你们可靠就告诉你们好了。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("大山、志华坐在葛申床边的马扎上，双目炯炯有神的注视着葛叔脸庞。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“我这身老骨头也是军人出身，年轻时当过兵，上过战场身经百战。在战场上杀敌无数，立过汗马功劳。几十年前的八国联军时代，我曾在大汶口出抵挡列强入侵，但敌方实在太强悍了，我方寡不敌众。当时连里的乔连长和部下都牺牲了，唯独我自己从山坡上失足滚了下去。当我醒来时，发现自己躺在床上，浑身上下摔的遍体鳞伤，想动都动弹不得。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“葛叔刚才提的那位乔连长是不是叫‘乔英’？是位前清武状元。”大山问：");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“正是！你怎么知道？难道你是？”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“我就是乔连长的儿子乔大山。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("葛叔听后感到激动，在病床上立起身子上下打量乔大山，道：“你这身板和你父亲当年一个风范，虎父无犬子，不亏是乔连长的儿子啊，你们乔家有你就有希望，国家危难时刻正需要你这种知青作栋梁。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“葛叔过奖，我只不过是龙师长麾下的一位无名小卒，不足挂齿。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“瞧，中国式虚伪，小乔太低调了。对了，龙师长现在还好吧？当年我也是半路上入伍的，入伍不久就发生刚说的事跟龙师长失散了。当我养好伤后又去了阵地，却没找到他。他提过他住在龙府，这些年来我一直打听却没打听到。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“龙师长非常健壮，半个月前我还见过他。父亲走后，我从小就是被他一把屎一把尿拉扯大的。我的这双鞋就是他找人特地为我量身订做的，刚才你儿子还给擦过。记得他常告诫我的那句话‘流血流汗不流泪，掉皮掉肉不掉队’。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“好骨气！你是快好苗子。”葛叔看了看大山脚上穿的帆布鞋，鞋面鞋边干干净净的，伸手摸了摸儿子葛宝的脑袋，说：“懂事的孩子。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“等有机会让龙师长来见见葛叔。”大山又问：“对了葛叔，刚才你说到躺在床上不能动，哪是谁救了你呢？”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("葛叔回答：“救我的那位是一位少女，叫‘秋琴’，她到溪边捕鱼，见我在水里漂泊，就动了恻隐之心，把我救到她家里。我醒来后她告诉我这个村庄叫做药勺村，因为一件事而得名。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("葛叔给大山、志华讲述着村名的由来。在秋琴认识葛申的几年前，有次秋琴到溪边洗澡。她的水性很好，边洗边潜到水底捕鱼，突然间感到肚子特别痛疼，像是得了绞肠痧似的。秋琴便上了岸，在岸边翻来覆去，疼痛感一直加重。秋琴放弃了求生的欲望，想临走前吃点东西撑死算了。看到树下有个红通通的东西，也不管有没有毒就拿起来吃下去。没过多久，秋琴反而感觉痛疼感逐渐减轻了，想排泄。想到自己是位姑娘，于是跑到树下一处见不到人的地方，解开腰带蹲下便解。排完后发现一堆蛇卵，原来是刚才游泳时不小心吃进去蛇卵才导致腹部痛疼的。秋琴吃下去的是槟榔，是一种驱虫药。不久秋琴的爹当了村长，便给这村子起名“药勺村”。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“大叔所说的‘秋琴’姑娘就是小宝的母亲吗？”志华问：");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“没错”葛叔回答：“常言道‘大难不死必有后福’，可命运有时往往是无情的，天若有情天亦老。”葛叔继续讲述后面的故事。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("葛申在秋琴的精心照料下，身子骨很快就康复了。秋琴知道葛申的身世后，两人的关系日益密切。不到一年，两人便成了亲。秋琴怀胎十月生下了个小千金，葛申见她脸蛋通红，现在正是百花盛开的季节，便取名葛红花，小名小花。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“他不是叫‘小宝’，是位小少爷吗？”大山看着一旁的小宝迷惑的问：");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“先听葛叔讲完嘛。”身边的志华掐了掐大山的胳膊。葛叔咳嗽了一声，继续讲。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("本以为药勺村的日子会越来越好，谁知这种安定日子才维持了一年多，有帮土匪来药勺村打家劫舍，乱杀百姓。葛申是军人出身，秋琴和丈夫在一起快两年了，也学了点本事，夫妻二人联合其他村名与土匪相抗衡。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("常言道：“邪不压正。”在村民们的反击下，土匪被剿灭了大半，但村里的百姓也死伤很多，包括秋琴的父母都在战斗中牺牲了。土匪头目穿着一身黑衣，自称“黑袍”，武艺高强，单凭葛申一人就与其斗了三百回合不分胜负。秋琴远不是其对手，葛申有几次与其拼杀刚要占上风，黑袍就把矛头转向秋琴，葛申就分心去保护秋琴。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("有位土匪从葛申的房里抢出了一个襁褓，里面传出婴儿的哭声，正是小花。夫妻俩见女儿被土匪抢走了，不顾一切上前营救。可能是母爱的伟大，秋琴瞬间以迅雷不及掩耳之势冲到了那位土匪身后，一刀将其杀下马来。可就在秋琴冲到他身后之前，小花被土匪扔到了黑袍手里。秋琴不顾是否能赢就冲上前去与黑袍殊死搏斗，母爱激发了秋琴的潜力，看上去好像功力瞬间飙升到丈夫的水平，居然和黑袍打的不相伯仲。秋琴虽然功力飙升好几成，但毕竟投鼠忌器，小花还在黑袍手中，生怕有个闪失伤到或吓到女儿。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("黑袍好像看穿了秋琴的顾忌，根本不顾怀里的婴儿死活，硬是想干掉眼前这位女子。秋琴看清了黑袍的招式，找准时机一刀砍在黑袍的手臂上。黑袍大叫一声松开了手臂，怀里的婴儿瞬间掉下马来。秋琴也从马背上跃下来滚在地上，背朝地面朝天，伸开双臂接住了小花。可就在这一瞬间，黑袍手里握着刀在距离地面一米处对准母子直刺下来。秋琴首先想到的是把怀里的小花移开，就这一动作耽搁的一秒钟，黑袍的刀已经刺到离地面半米处了。秋琴刚才接小花时扔掉了手里的刀，不然黑袍这招来的虽快，秋琴很容易就化解了。现在秋琴只能手无寸铁的硬接，便用双手抓住了黑袍的刀刃。由于黑袍的重力，刀尖继续下降，一股殷红色液体顺着秋琴的指头缝里流出。秋琴的双脚也上了阵，和双手一起夹住了黑袍的刀刃，刀尖这才慢慢的停止了下降，但刀尖已经到距离秋琴心窝一英寸处了，秋琴的双脚踩在黑袍胸口处，黑袍无法继续发力。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("这种局面僵持了好几秒，突然间“啪”的一声响起，刀的前半截被秋琴折断了。没有了刀尖的威胁，秋琴瞬间双脚一发力，双腿一蹬把黑袍蹬开。就在蹬开的一瞬间，黑袍双手也一发力把刀的后半截朝下发了下去。秋琴以为蹬起黑袍后自己安全了，没料到对方会使这招令其猝不及防。不过后半截刀并没有插进秋琴的心窝，因为蹬时下身挡在了刀的下面，所以后半截刀插进了秋琴的阴部处大约十公分左右。正在黑袍看到秋琴受伤沾沾自喜时，自己的心窝处也插入了刀尖。原来刚才秋琴蹬起黑袍的瞬间，把折断的前半截刀尖借力发了出去，正中黑袍心窝，黑袍当场毙命。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("小花的襁褓就在秋琴身旁一米左右的地方，里面发出一句句含糊的呼唤“妈。。。妈。。。”毕竟小花才不到两岁，刚学会说话不久。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("剩余的土匪被村民们杀退了，所剩无几。葛申抱着旁边的小花跪在妻子身边，看到妻子除了阴部处殷红一片，其他地方倒是没啥大伤。秋琴嘴里断断续续念着：“小花。。。”葛申试试妻子鼻孔处还有呼吸，非常微弱，便把妻子抱上马，带着小花一起往村外去了，其他村民也护送着一起走了。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("葛申驾马行了大约半个时辰，来到一处医馆，让一位村民先抱着小花，自己进去一会。小花虽然被父母以外的人抱着，但比较听话。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("过了大约一个时辰左右，葛申抱着妻子从里面出来，骑上马对那几位村民说：“跟我去个地方！”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("原来刚才医馆的大夫脱掉秋琴的裤子，看到里面垫着卫生巾，是她不久前来事前垫上的。大夫拿掉卫生巾后，看到阴部已经被刀刃穿透了，包括卵巢内部也受伤严重。还好没有伤到五脏六腑这些要害处，不过也得处理下，要不一旦小便时会出现感染。大夫给她做了个小手术，把阴部伤口处缝合上，用纱布包扎好。这只是为了一时不感染，还需要正经治疗。这需要进行一次大手术，告诉葛申有个地方离这里好几十里路，有位自称医圣的人，能通过高明的医术康复患者，不知能否医治这位女子的伤，何不抱有一丝希望去试试看。提醒葛申就算人家能治好这种程度的伤，在治好前这段时间（不管要多久、不管她之前喝了多少水，憋到什么程度，甚至选择憋死）一定嘱咐不能让女子小解，否则将会有感染的可能，甚至有生命危险。葛申把嘴趴在妻子耳边一字一句的叮嘱了，妻子轻轻点了点头。秋琴平日里一天至少要小解3-5次，今天从与土匪厮杀到现在，已经过去五六个小时了，没看到妻子小解过。葛申为妻子担忧，不知妻子还得憋多久？是否真的能挺过去？她是为女子，而自己是位男子，憋的能耐比妻子强，巴不得自己替妻子扛过这一难关。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("葛申为了早一刻帮妻子度过难关，便快马加鞭的朝目的地出发了。");
+					sb.append("</div>");
+					sb.append("<div class=\"next_chap_nav_div\">");
+						sb.append("那位自称“医圣”的究竟是何许人也？真的能治好秋琴的伤吗？请看下回分解。");
+					sb.append("</div>");
+					sb.append("<div>");
+						sb.append("(1)这些都是金庸先生的作品《射雕英雄传》里的人物，具体情节详见《射》。");
+					sb.append("</div>");
+				sb.append("</div>");
+			sb.append("</div>");
+		sb.append("</div>");
+		
+		return sb.toString();
+	}
+
+	/**
+	 * 获得第7章内容
+	 * @return
+	 */
+	public static String getChapter7() {
+		
+		StringBuilder sb=new StringBuilder();
+		sb.append("<div class=\"main_div\">");
+			sb.append("<div class=\"chapter_div\">");
+				sb.append("<h1 class=\"title_div\">");
+					sb.append(CHAP7_TIT_NAME);
+				sb.append("</h1>");
+				sb.append("<div class=\"content_div\">");
 					sb.append("<div class=\"paragraph_div\">");
 						sb.append("");
 					sb.append("</div>");
@@ -821,24 +1028,13 @@ public class Part1Util {
 					sb.append("<div class=\"paragraph_div\">");
 						sb.append("");
 					sb.append("</div>");
-				
 					sb.append("");
 					sb.append("");
 					sb.append("");
 					sb.append("");
 					sb.append("");
 					sb.append("");
-					sb.append("");
-					sb.append("");
-					sb.append("");
-					sb.append("");
-					sb.append("");
-					sb.append("");
-					sb.append("");
-					sb.append("");
-					sb.append("");
-					sb.append("");
-					sb.append("");
+					
 				
 
 					sb.append("一个女人姓张名萌，一个男人姓李名龙。李龙的家庭是个惨不忍堵的家庭，自从张萌和李龙结婚后，张萌的命运被李龙的家庭给改变了，一场爱与恨的故事就此拉开帷幕。");
