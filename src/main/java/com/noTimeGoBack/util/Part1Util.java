@@ -25,11 +25,11 @@ public class Part1Util {
 	/**
 	 * 第6章标题
 	 */
-	public static final String CHAP6_TIT_NAME="第6章 父与子的故事(上)";
+	public static final String CHAP6_TIT_NAME="第6章 药勺村的故事";
 	/**
 	 * 第7章标题
 	 */
-	public static final String CHAP7_TIT_NAME="第7章 父与子的故事(下)";
+	public static final String CHAP7_TIT_NAME="第7章 达摩祖师";
 	
 	public static final String CHAP1_IMAGE_PATH=Contant.IMAGE_PATH+"001";
 	public static final String CHAP2_IMAGE_PATH=Contant.IMAGE_PATH+"002";
