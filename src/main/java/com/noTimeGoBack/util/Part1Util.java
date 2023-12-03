@@ -33,7 +33,11 @@ public class Part1Util {
 	/**
 	 * 第8章标题
 	 */
-	public static final String CHAP8_TIT_NAME="第8章 达摩祖师";
+	public static final String CHAP8_TIT_NAME="第8章 天人三问";
+	/**
+	 * 第9章标题
+	 */
+	public static final String CHAP9_TIT_NAME="第9章 达摩祖师";
 	
 	public static final String CHAP1_IMAGE_PATH=Contant.IMAGE_PATH+"001";
 	public static final String CHAP2_IMAGE_PATH=Contant.IMAGE_PATH+"002";
