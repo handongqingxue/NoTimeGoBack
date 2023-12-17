@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.noTimeGoBack.util.Part1Util;
+import com.noTimeGoBack.util.*;
 
 //eclipse搭建maven项目:https://blog.csdn.net/weixin_62332711/article/details/125630418
 @Controller
@@ -36,6 +36,7 @@ public class MainController {
 			titleList.add(Part1Util.CHAP8_TIT_NAME);
 			titleList.add(Part1Util.CHAP9_TIT_NAME);
 			titleList.add(Part1Util.CHAP10_TIT_NAME);
+			titleList.add(Part2Util.CHAP11_TIT_NAME);
 			
 			request.setAttribute("titleList", titleList);
 			
@@ -43,8 +44,14 @@ public class MainController {
 		}
 		else if("chapter".equals(page)){//http://localhost:8080/NoTimeGoBack/main/goPage?page=chapter&num=1
 			Integer num = Integer.valueOf(request.getParameter("num"));
-			String content = Part1Util.getChapterByNum(num);
+			
+			String content = null;
+			if(num>=1&&num<=10)
+				content = Part1Util.getChapterByNum(num);
+			else if(num>=11&&num<=20)
+				content = Part2Util.getChapterByNum(num);
 			request.setAttribute("content", content);
+			
 			url="/chapter";
 		}
 		return url;
