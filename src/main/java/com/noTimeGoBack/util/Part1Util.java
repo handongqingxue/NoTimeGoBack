@@ -41,7 +41,11 @@ public class Part1Util {
 	/**
 	 * 第10章标题
 	 */
-	public static final String CHAP10_TIT_NAME="第10章 智取黑风寨";
+	public static final String CHAP10_TIT_NAME="第10章 黑风老妖";
+	/**
+	 * 第11章标题
+	 */
+	public static final String CHAP11_TIT_NAME="第11章 智取黑风寨";
 	
 	public static final String CHAP1_IMAGE_PATH=Contant.IMAGE_PATH+"001";
 	public static final String CHAP2_IMAGE_PATH=Contant.IMAGE_PATH+"002";
