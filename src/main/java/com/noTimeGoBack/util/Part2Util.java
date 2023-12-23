@@ -5,7 +5,11 @@ public class Part2Util {
 	/**
 	 * 第11章标题
 	 */
-	public static final String CHAP11_TIT_NAME="第11章 智取黑风寨";
+	public static final String CHAP11_TIT_NAME="第11章 西蒙与女孩";
+	/**
+	 * 第12章标题
+	 */
+	public static final String CHAP12_TIT_NAME="第12章 智取黑风寨";
 	
 	public static String getChapterByNum(int num) {
 		String content=null;
