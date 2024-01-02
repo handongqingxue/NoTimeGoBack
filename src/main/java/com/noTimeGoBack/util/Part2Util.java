@@ -14,6 +14,10 @@ public class Part2Util {
 	 * 第13章标题
 	 */
 	public static final String CHAP13_TIT_NAME="第13章 大闹黑风寨";
+	/**
+	 * 第14章标题
+	 */
+	public static final String CHAP14_TIT_NAME="第14章 祖师林";
 	
 	public static final String CHAP11_IMAGE_PATH=Contant.IMAGE_PATH+"011";
 	
@@ -28,6 +32,9 @@ public class Part2Util {
 			break;
 		case 13:
 			content=getChapter13();
+			break;
+		case 14:
+			content=getChapter14();
 			break;
 		}
 		return content;
@@ -631,6 +638,74 @@ public class Part2Util {
 					sb.append("</div>");
 					sb.append("<div>");
 						sb.append("(2)硫酸铜点燃后会发出蓝色光，这里指以蓝色光作为信号。");
+					sb.append("</div>");
+				sb.append("</div>");
+			sb.append("</div>");
+		sb.append("</div>");
+		
+		return sb.toString();
+	}
+
+	/**
+	 * 获得第14章内容
+	 * @return
+	 */
+	public static String getChapter14() {
+		
+		StringBuilder sb=new StringBuilder();
+		sb.append("<div class=\"main_div\">");
+			sb.append("<div class=\"chapter_div\">");
+				sb.append("<h1 class=\"title_div\">");
+					sb.append(CHAP14_TIT_NAME);
+				sb.append("</h1>");
+				sb.append("<div class=\"content_div\">");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("黑风老妖被剿灭了，这片黑枫林已不再是迷林了，而是绿树成荫的大森林，各种动物植物在里面来回穿梭。那条岩浆河现在也成了清澈的小溪，澄清见底，各类鱼儿在里面自由自在的游荡。经过刚才的一场苦战，终于消灭了妖精，大伙都来到溪边洗洗脸和手脚，唯独秋琴没有下水，怕被水破坏了灵符。她现在基本上能把小便次数控制在一天内1到2次左右，自从离开积米崖后还没小解过，便找了颗树边没人看到的地方，解开腰带脱下裤子和裤衩、抽出灵符小解起来。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("李吉说：“多亏大伙相救我们才保住这条老命，哎，做人真累，身处乱世多磨难，要是能像这鱼儿一样自由自在的生活就好了。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“子非鱼安知鱼之乐(1)？”小七询问，“鱼儿也有鱼儿的苦恼。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“鱼儿整天在这小溪里逍遥生活能有啥苦恼？”李吉挠着头询问：");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“这你就不懂了吧？原以为经过这次磨难，你会变的聪明点，没想到还是和以前一样呆头呆脑。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“做人太难了，受刑更痛苦。与其受刑，我还不如被收到葫芦里待一辈子呢。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“刚才真不该救你出来，让你多体验一下就不会这么说了。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("大家听了小七与李吉的对话都忍俊不禁的笑起来。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("洗漱完，大家从溪边的小桥来到了对岸。那座妖楼的地方现在变成了一片麦场，只是缺少主人播种收割。再往前走穿过麦场来到了那片墓地，现在依然是墓地，只是没有原来那么诡异了，一方方墓碑上镶嵌着鲜花，老远看到还有对夫妻和几个师生在那里祭拜。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("大伙走过去，看到这对夫妻脸上布满皱纹、这些学生都是十来岁的中学生，由一位老师带领着。他们都穿着统一的校服校裤，手里拎着书包，只是鞋子不同。今天天气比较炎热，有的穿着耐克、安踏运动鞋、有的穿着网鞋、有两位男生穿着黑色沙滩凉鞋。一位穿凉鞋还穿着白袜、另一位光脚。墓碑上刻着爱子曾圆圆五个大字，年龄才四岁。墓碑前放着一块正方形的垫子和一些食物，学生们排着一字形整齐的队伍，排到谁谁就脱掉鞋子放到一边，双腿跪在垫子上磕头祭拜。第一位脱掉安踏黑面白底运动鞋，穿着灰色棉袜，跪在垫子上，袜底朝上祭拜。磕了三次头，祭拜完从书包里拿出一双拖鞋和几本书来，书放在墓碑前，并没穿回原来的运动鞋，而是换上那双拖鞋来，把运动鞋留在碑旁，站到一边。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("第二位是位矮个子男生，也重复着前面那位的动作，脱掉白色耐克运动鞋，整双袜子都是白色的，只是袜底有些泛黄。祭拜完穿上蓝色拖鞋，拿着本《水浒传》放在碑旁，站到一边。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("");
 					sb.append("</div>");
 					sb.append("<div class=\"paragraph_div\">");
 						sb.append("");
