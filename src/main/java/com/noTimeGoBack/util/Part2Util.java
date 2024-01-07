@@ -17,7 +17,11 @@ public class Part2Util {
 	/**
 	 * 第14章标题
 	 */
-	public static final String CHAP14_TIT_NAME="第14章 祖师林";
+	public static final String CHAP14_TIT_NAME="第14章 复活";
+	/**
+	 * 第15章标题
+	 */
+	public static final String CHAP15_TIT_NAME="第15章 祖师林";
 	
 	public static final String CHAP11_IMAGE_PATH=Contant.IMAGE_PATH+"011";
 	
@@ -765,8 +769,70 @@ public class Part2Util {
 						sb.append("祖师露出一丝微笑，把西蒙搀扶起来，说：“起来，男儿膝下有黄金，救人一命是我应该做的。这招招魂引按理说十年最多才能施展一次，上次救秋琴姑娘已经损耗了很多元气，没过多久又救了你，我的元气大伤，估计最多只能活三日了。马上去救圆圆，趁我活着时必须要救活他。”");
 					sb.append("</div>");
 					sb.append("<div class=\"paragraph_div\">");
-						sb.append("");
+						sb.append("西蒙虽然被祖师救活了，但没穿裤衩光着身子。祖师从衣柜里找了条白色裤衩，西蒙穿上感觉正合适。祖师又从衣柜里找了布衣、长裤、从鞋柜里找了双老北京布鞋和白色棉袜，西蒙逐一穿戴上感觉正合身。这时，祖师从药盒里找了一颗红色药丸，足足有核桃那么大，张开口直接吞了下去。他告诉西蒙、兰春：“这是一颗维持生命的药丸，在人生命垂危时服下可以维持一下，但最多三日，三日后便会气绝身亡。三天，处理好我剩下的该做的事情足够了。我要下山了，再见我的好弟子们，不能耽搁时间了。”");
 					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“可西蒙才刚醒过来，需要静养一周呢，祖师走后三日内还会再回来吗？”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“三日内我肯定会尽力复活圆圆的，不管是否能成功，我都会回来看你们的。西蒙切记，一周内不能下床行走，否则会前功尽弃的。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“弟子谨遵师父叮嘱，师父此次下山要多保重。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("祖师点点头，转身走出了洞府。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("洞外站着葛申一伙人马，见祖师才几个时辰就变成了这副样子都大惊失色。祖师却面带微笑，说：“我没事，咱赶紧下山去，复活圆圆。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("祖师走起路来踉踉跄跄的，葛申和秋琴分别在祖师左右搀扶着他。经过从高到低的山路时，祖师慨叹说自己来到山上好几十年了一直没下过山，能在有生之年再次下山，复活生命真是这一生的荣幸。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("祖师行走比之前慢多了，经过好几个时辰才到达那片墓地，来到了圆圆的坟前，上面刻着“爱子曾圆圆之墓”。经过几个时辰的行走，那些学生们有多半脚上的拖鞋鞋底开裂了、袜子袜跟处和袜尖都磨破了。墓地旁放着他们的运动鞋，有系带的、也有带魔术贴的，还有一摞书籍。祖师让同学们穿回自己的鞋子，他马上要施法了。兰春把宝葫芦递给祖师，祖师将其放在墓碑最顶端，自己盘膝坐在碑前的垫子上，双掌对着宝葫芦。宝葫芦表面开始泛金光，如袅袅炊烟从葫芦口处冒出，在距离墓地顶端两米来高的地方凝聚在一起，形成了一团金色雾团。不一会，雾团开始变成了人形，和圆圆生前的样子一模一样。这一幕如同《封神榜》里太乙真人复活哪吒的场景一样，令人叹为观止。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("祖师施法正当高潮时，突然间垫子上出现了几个红点，原来是祖师的鼻孔里流出了鲜血。祖师门下的几位童子上去想给祖师止血，但走到祖师身边时，祖师后背突然间发出一道金罩，形成了保护伞，将童子们击退了回去。祖师的鼻孔处停止了流血，继续施法。不一会，一道道白色雾气从地里冒出，经过墓碑表面，“爱子曾圆圆”几个字消失不见了，墓碑变成了一块无字的石头。白雾继续上升，融入到上方那团金色的雾气里，两团雾气混在一起变成了肉色，开始下降。下降到葫芦口处，进了葫芦里，又顺着葫芦底继续下降，墓碑从上往下也开始变成了肉色，形状也变了，变成了人体形状。葫芦的形状也开始变，变成了娃娃头形状。祖师口里顿时喷出一口鲜血，喷到了墓碑和葫芦上，墓碑和葫芦慢慢的呈现出人形来。不一会就出现了一位十四五岁的男孩，与祖师成轴对称，盘膝而坐。男孩只穿着一条红裤衩，其他地方光着，双掌与祖师的双掌对在一起。祖师继续运功，一道道金光从祖师的身体处经过双掌，送入男孩的体内。不一会，男孩身上出现了衣物。与身穿和其他同学一样的校服校裤、脚穿黑面白底安踏运动鞋和白袜。祖师拿着男孩的两只手掌，将其对在一起。脱掉男孩的运动鞋，白袜看上去和新的一样很干净。祖师把裤腿往上一撸，袜筒处出现adidas黑色字样。祖师手掌抓着男孩的袜底处摸了摸，感觉有温度了，对准袜底处开始运功。不一会，男孩的眉毛开始微微的颤动，眼睛缓缓的张开。第一眼看到了祖师就坐在自己跟前，看到父母、老师、同学们都在，还有一些没见过的陌生脸庞。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“爸爸妈妈、老师、同学们好！我怎么会在这里？”男孩迷惑的问。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("圆圆的父母激活的热泪盈眶，上去拥抱着他，说：“我的宝贝儿子来，你总算回来了！爸妈想死你了！你都长这么大了！”一家三口拥抱许久。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("祖师高兴的说：“我的任务算是完成了。。。。”，刚说完咳嗽了几声，脸上皱纹变的更多、头发变的更加花白，眼里、鼻孔里、嘴里都流出了鲜血，染红了垫子，侧着倒在了圆圆身前。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“师父。。。”周围的人异口同声的喊，祖师周围的今罩消失了，大家一起冲上去搂着祖师。");
+					sb.append("</div>");
+					sb.append("<div class=\"next_chap_nav_div\">");
+						sb.append("祖师救活了西蒙和圆圆，自己已灯尽油枯，接下来会怎样？请看下回分解。");
+					sb.append("</div>");
+					sb.append("<div>");
+						sb.append("(1)选自《庄子*秋水》。");
+					sb.append("</div>");
+				sb.append("</div>");
+			sb.append("</div>");
+		sb.append("</div>");
+		
+		return sb.toString();
+	}
+
+	/**
+	 * 获得第15章内容
+	 * @return
+	 */
+	public static String getChapter15() {
+		
+		StringBuilder sb=new StringBuilder();
+		sb.append("<div class=\"main_div\">");
+			sb.append("<div class=\"chapter_div\">");
+				sb.append("<h1 class=\"title_div\">");
+					sb.append(CHAP15_TIT_NAME);
+				sb.append("</h1>");
+				sb.append("<div class=\"content_div\">");
 					sb.append("<div class=\"paragraph_div\">");
 						sb.append("");
 					sb.append("</div>");
