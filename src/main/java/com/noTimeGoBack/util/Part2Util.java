@@ -22,6 +22,10 @@ public class Part2Util {
 	 * 第15章标题
 	 */
 	public static final String CHAP15_TIT_NAME="第15章 祖师林";
+	/**
+	 * 第16章标题
+	 */
+	public static final String CHAP16_TIT_NAME="第16章 待定";
 	
 	public static final String CHAP11_IMAGE_PATH=Contant.IMAGE_PATH+"011";
 	
@@ -834,7 +838,34 @@ public class Part2Util {
 				sb.append("</h1>");
 				sb.append("<div class=\"content_div\">");
 					sb.append("<div class=\"paragraph_div\">");
-						sb.append("");
+						sb.append("祖师虽然看上去生命快将尽，但扔面带微笑道：“我离开天竺国已好几十年了，来东方传教起初并未点化多少人，就到积米崖隐居了。想不到在我有生之年居然连续救了三位生命，我也死得瞑目了。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("祖师躺在圆圆父母的怀里，圆圆手里拿着手帕擦拭着祖师嘴角的鲜血。脚上刚才被祖师运动运的出了很多汗，袜子也被浸湿了。白色袜子踩在垫子沾有血渍的地方，袜底区域染红了一多半。垫子旁边还放着双安踏运动鞋，鞋码看上去比其他同学的鞋子都大，鞋底带着弹性气垫。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("圆圆被祖师复活后看上去瞬间长大了很多，虽然没和其他孩童那样经历过从童年到青春期的过渡期，但智商情商等方面看上去比同龄人高出不少。他记起生前和其他同学夏令营时的最后一幕场景，知道是祖师给予了他第二次生命。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("祖师用沾有血渍的手掌抚摸着圆圆的脸庞，说：“圆圆不哭，祖师看到你获得了新生，是我这辈子最大的荣幸。”祖师把另一只手伸到垫子外，拿来那双安踏运动鞋，“我的好孩子，这双鞋子和这身校服是祖师根据你们班同学的穿戴，特地为你制作的。来，穿上鞋子。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("尽管圆圆的白袜脚底脚背大部分区域已经沾了血渍，还是听从祖师的吩咐穿上了运动鞋。圆圆穿上后再次跪倒在祖师面前，只不过这次是从左往右侧跪着，左脚运动鞋鞋底面朝外，上面有很多圆形小白点(图1)。圆圆的母亲的右手放在圆圆左脚鞋底旁，刚好碰到了儿子的鞋底上。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("祖师的神色看上去每况愈下，临终前在对各位交代事情，先从圆圆一家三口开始说。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("祖师用残损的手掌抚摸着圆圆的脑袋，“我的好孩子，能看到你拥有了第二次生命是我的荣幸。”祖师又说了遍刚才的话，“但很抱歉没能给予你一个完整的童年，和其他孩童那样，只能根据现在的你对应的年龄复活，祖师只有这种程度的法力。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“千万不要这样自责，您能复活我的儿子，这份恩情我们还没来得及报答你呢。”圆圆的父亲说着，把手放在儿子右脚的鞋面上。很多学生都把目光注视到了圆圆的安踏运动鞋上，这种款式的鞋子一双值好几百块，整个村庄里没几家孩子能穿的起。祖师施法制造出一双要耗费很多内力，祖师心里有数，复活圆圆后自己就到了油尽灯枯的地步，想在生命最后一刻给予身边需要帮助的人最大的报酬。就连他门下的童子跟随他好几年了，都没享受过如此的待遇。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“祖师不需要你们的报答，只希望你们一家三口成为和谐家庭。圆圆，往后祖师希望你与周围的师生和谐相处。”圆圆眼角流出了泪水，没有张嘴说话只是点点头表示明白。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("祖师又把其他几位同学叫到身边，从头到脚打量了，有几位衣服裤子出现破损、有几位鞋边出现开裂。祖师缓缓的抬起手，从指尖处散发出一道道金光，弥漫在他们身上。不一会，这些孩子身上破损的地方就消失了，跟新买的一样。他们纷纷跪在祖师面前，异口同声的说：“谢谢祖师！”");
 					sb.append("</div>");
 					sb.append("<div class=\"paragraph_div\">");
 						sb.append("");
@@ -854,9 +885,6 @@ public class Part2Util {
 					sb.append("<div class=\"paragraph_div\">");
 						sb.append("");
 					sb.append("</div>");
-					sb.append("<div class=\"paragraph_div\">");
-						sb.append("");
-					sb.append("</div>");
 					sb.append("");
 					sb.append("");
 					sb.append("");
@@ -870,6 +898,26 @@ public class Part2Util {
 					sb.append("");
 					sb.append("");
 					sb.append("");
+				sb.append("</div>");
+			sb.append("</div>");
+		sb.append("</div>");
+		
+		return sb.toString();
+	}
+
+	/**
+	 * 获得第16章内容
+	 * @return
+	 */
+	public static String getChapter16() {
+		
+		StringBuilder sb=new StringBuilder();
+		sb.append("<div class=\"main_div\">");
+			sb.append("<div class=\"chapter_div\">");
+				sb.append("<h1 class=\"title_div\">");
+					sb.append(CHAP15_TIT_NAME);
+				sb.append("</h1>");
+				sb.append("<div class=\"content_div\">");
 					sb.append("一个女人姓张名萌，一个男人姓李名龙。李龙的家庭是个惨不忍堵的家庭，自从张萌和李龙结婚后，张萌的命运被李龙的家庭给改变了，一场爱与恨的故事就此拉开帷幕。");
 					sb.append("本故事要先从张萌的母亲乔梅花讲起……");
 					sb.append("乔梅花1931年出生于东北松花江，后来搬到山东省高密县的一个小山村里，从小在那里长大。全家五口，排行老三。父亲乔大山、母亲崔孟华、大哥乔天赐、二哥乔少康。大山与孟华原居东北松花江，1931年九一八事变爆发，全家被迫逃亡，来到高密县。");
