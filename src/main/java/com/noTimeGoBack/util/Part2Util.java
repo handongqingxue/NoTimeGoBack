@@ -25,7 +25,11 @@ public class Part2Util {
 	/**
 	 * 第16章标题
 	 */
-	public static final String CHAP16_TIT_NAME="第16章 妻子的抉择";
+	public static final String CHAP16_TIT_NAME="第16章 夭折";
+	/**
+	 * 第17章标题
+	 */
+	public static final String CHAP17_TIT_NAME="第17章 妻子的抉择";
 	
 	public static final String CHAP11_IMAGE_PATH=Contant.IMAGE_PATH+"011";
 	
@@ -966,7 +970,93 @@ public class Part2Util {
 						sb.append("这时，有人敲门。西蒙开门一看，是圆圆站在门口，身上还穿着睡衣，脚上穿着拖鞋，白袜脚露在外面。“葛叔怎样？”原来圆圆担心葛叔这边情况，趁父母睡着时偷偷的跑了出来，连鞋子都忘记穿了。“葛叔刚醒过来，没事的。”西蒙让圆圆进屋坐。");
 					sb.append("</div>");
 					sb.append("<div class=\"paragraph_div\">");
-						sb.append("");
+						sb.append("葛叔躺在病床上，用枯萎的手掌抚摸着圆圆的脑袋，说：“我的好孩子，你葛叔福大命大，阎王爷是不会这么快叫我的。只是这么晚了你瞒着父母溜出来，万一他们醒来找不到你好担心了，快些回去吧。记得祖师临终前告诫过你的话了，要听父母的话。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("圆圆说要和葛叔等人明天一早去红尘客栈那边，葛叔却说自己会料理好家事的，圆圆去了也帮不上啥忙，执意要他今晚就回家。圆圆勉强的点了点头，西蒙牵着他的手将其送出去。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("圆圆穿着拖鞋，袜跟处有些泛黄，行走速度也慢了很多。他告诉西蒙：“大蒙哥，我今晚是头一次穿着拖鞋露着袜子外出，在家里我一般都穿着运动鞋，一开始这么着外出感觉白袜脚露在外面不太习惯，刚复活才没几天，在我上一次生命最后是幼儿园阶段，那时穿着凉鞋倒也无妨，现在都上初中了，一般都是光脚穿着拖鞋外出，穿着拖鞋袜子外出还真是头一次。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("西蒙抚摸着圆圆的脑袋，就像上次抚摸着代茜那样，说：“无所谓，咱俩的某些经历有些类似。不久前我也是被妖精收进了葫芦里好些天，被放出来时整个人都没了知觉，和死人别无区别，而且阴茎都没了，还没裤衩穿呢。多亏祖师施法才复活了我，并给了我裤衩穿。我没裤衩时阴私处露在外面，但为了救人都没觉得不好意思。私处还被敌人伤害过好几次，有一次还是被异性人伤害的。这些事比起你现在穿着拖鞋露着白袜脚来说尴尬多了，而且穿着袜子比光脚应该舒服多了，还防止得皮肤病呢。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("被大蒙哥这么一点化，圆圆感觉内心强大起来，顿时不觉得尴尬了。西蒙看到圆圆的表情知道他释怀了，说：“以后夏天天气炎热，你不一定非得穿着运动鞋去学校，就算是初中生了，还是可以和幼儿园时那样，穿着凉鞋和袜子去学校。师生们不会笑话的，相反，白袜脚感觉凉快了，说不定会超常发挥呢。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("两人说着说着到了圆圆家门口，圆圆的父母早就站在门外，看来已等候多时，圆圆妈手里还拿着圆圆的安踏运动鞋，用它拍打着儿子的屁股，骂道：“臭小子，我以为你长大了懂事了，没想到出门连鞋都不穿。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“怎么没穿鞋？”圆圆把脚伸到妈面前，“我穿着拖鞋外出感觉比穿运动鞋都舒服轻便，只是学校规定不准穿着拖鞋去上学，等到了夏天我还打算穿着凉鞋去上学呢。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“你穿着什么鞋外出妈妈不反对，只是大半夜的也不跟爸妈打声招呼就外出。你十年前已经出过一次事故了，难道刚复活没几天还想让历史重演？要是真的再出事，祖师已经不在人世了，没人会救你了。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("西蒙说：“你妈说的是，大半夜的没经过家人同意私自外出确认不安全，虽然妖精已被消灭，但生怕发生别的事。快向爸妈道歉。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("圆圆意识到了问题的严重性，眼里含着泪水说：“爸爸、妈妈，对不起，孩儿不该大半夜的私自外出，我只是想去看看葛叔那边的情况而已。”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("圆圆爸把儿子和西蒙叫进了屋里，问：“葛队怎样了？”");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“已经醒了，只是身子骨比较虚弱，执意今早天一亮就回去看看已故的女儿。”西蒙说：");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("”那你既然已经来了，就先在我们家休息一晚吧，明早咱一起去见葛队，顺便和他一起去客栈。“圆圆爸恳求道，西蒙犹豫了几秒，答应了。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("圆圆爸走到儿子身边，从头到脚捏了捏儿子身上，确定儿子没有受伤。最后抓着儿子穿着拖鞋白袜的脚，在半空中摆来摆去。儿子的拖鞋掉了，当爹的看到儿子的袜底有些变色，把儿子的白袜脚抓在手里试了试。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("”不嫌臭吗？“圆圆问道。圆圆爸没有回答，在确定儿子脚上无异常，这才放了心。回答说：”你是我儿子，是我的亲骨肉，从小被我一把屎一把尿带大，再臭我也要保护好你。“");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("明天还要上课，圆圆的父母让儿子先去卧室休息，西蒙和他们在外面又聊了一段时间。圆圆通过墙壁听的到他们在外面的说话声，大概意思是等从客栈回来后，西蒙就要和兰春举行婚礼。圆圆特别疲惫，听着听着就进入了梦乡，连袜子都没脱。圆圆一般天天都换洗袜子，这次却例外。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("不知过了多久，圆圆被母亲叫醒，圆圆妈说早饭都做好了，让圆圆吃完后背上书包上学去，自己要和丈夫还有西蒙跟葛队汇合，去客栈那边。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("圆圆父母说完没几分钟就和西蒙一起出发了，半个时辰就来到了葛申家。葛申的气色看上去好多了，秋琴现在的饮食起居也和正常人一样了。这些人汇合成一队人马，向红尘客栈出发。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("一队人马走着走着，天突然下起了雨，大家都没拿伞，就冒雨前行。两个时辰后，雨渐渐停了。葛队一伙到达了红尘客栈，店小二带他们去找了老板，老板把他们带到地窖里，葛申看到小花安详的躺在冰棺里，面色苍白，还露着一丝微笑。葛申和秋琴瞬间抱在冰棺上痛哭，泪水一滴滴顺着脸颊流淌下来，滴在冰棺上。要是祖师还在世，一定会有办法复活小花的。现在秋琴虽然死里逃生，但却失去了小花。葛申夫妻俩拉着小花的冰棺回了药勺村，找了块空地将女儿的遗体安葬好，西蒙、圆圆父母也跟随着。安葬好后，葛申夫妻俩留在了药勺村、兰春带着西蒙回了娘家、圆圆的父母往家里返去。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("圆圆父母回到家，看到圆圆班的老师站在门口，看来已等候多时。听老师说今天圆圆没有去学校上课，大家都在学校附近找老半天了，就是没找到他。圆圆妈听到后，眼前一黑，便什么都不知道了。");
+					sb.append("</div>");
+					sb.append("<div class=\"next_chap_nav_div\">");
+						sb.append("圆圆没去上课，到底去了哪里？请看下回分解。");
+					sb.append("</div>");
+				sb.append("</div>");
+			sb.append("</div>");
+		sb.append("</div>");
+		
+		return sb.toString();
+	}
+
+	/**
+	 * 获得第17章内容
+	 * @return
+	 */
+	public static String getChapter17() {
+		
+		StringBuilder sb=new StringBuilder();
+		sb.append("<div class=\"main_div\">");
+			sb.append("<div class=\"chapter_div\">");
+				sb.append("<h1 class=\"title_div\">");
+					sb.append(CHAP17_TIT_NAME);
+				sb.append("</h1>");
+				sb.append("<div class=\"content_div\">");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("西蒙的身体康复后，兰春爹便找了县里的一位知名的婚礼主持周清波为西蒙和兰春主持了婚礼，本来定好葛申夫妻、猎户们、圆圆都来莅临，除了葛叔一家三口未到，其他人都如约而至。");
+					sb.append("</div>");
+					sb.append("<div class=\"paragraph_div\">");
+						sb.append("“一拜天地、二拜高堂、夫妻对拜”周清波用清朗的嗓子喊道，夫妻俩走上了观台。周清波上下打量着两人的穿着，把目光停留在西蒙的脚上，说：“新郎这身打扮基本上说的过去，只是脚上穿了双沙滩凉鞋，居然还穿着双白色棉袜，是怕蚊子咬吗？”在场的嘉宾在台下哈哈大笑。");
 					sb.append("</div>");
 					sb.append("<div class=\"paragraph_div\">");
 						sb.append("");
@@ -978,7 +1068,7 @@ public class Part2Util {
 						sb.append("");
 					sb.append("</div>");
 					sb.append("<div class=\"paragraph_div\">");
-						sb.append("几日后，兰春爹便找了县里的一位知名的婚礼主持周清波为西蒙和兰春主持了婚礼，葛申夫妻、猎户们、圆圆和他同学们都来莅临。");
+						sb.append("");
 					sb.append("</div>");
 					sb.append("");
 					sb.append("");
